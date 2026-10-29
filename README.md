@@ -1,8 +1,7 @@
 # VoroTIDE
 
 VoroTIDE (**Voro**noi-based **T**wo-way **I**ndependent **D**omain **E**xploration) finds the structural domains of a
-protein chain from its 3D structure (PDB or mmCIF). It is deterministic and **training-free**: it uses no learned model,
-no sequence homology and no evolutionary information, only the physics of the chain.
+protein chain from its 3D structure (PDB or mmCIF). It is a deterministic and training-free model.
 
 VoroTIDE works in three steps:
 1. **Units.** Secondary-structure elements, assigned by STRIDE, are the units of the chain.
